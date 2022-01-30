@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '你从窗户跳出去了';
+        if (cps <= 8) return '安黛因很生气';
+        if (cps <= 10)  return '我要把你大卸八块！';
+        if (cps <= 15) return '嘎啊！！';
+        return '决心';
     }
 
     function toStr(obj) {
